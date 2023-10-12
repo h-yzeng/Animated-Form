@@ -1,6 +1,11 @@
-function formLog(){
-  let form = document.getElementsByName("name" + "email" + "phone");
-  console.log(form);
+function formLog(event){
+  event.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const phone = document.getElementById('phone').value;
+  console.log('Name:', name);
+  console.log('Email:', email);
+  console.log('Phone:', phone);
 }   
 
 function formCompletion(){
