@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" class="hasjs">
-<head>
-  <title>ITMD 362 - Project 1</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <script async src="js/script.js"></script>
-</head>
-<body>
-<main id="content">
-  <form method="get" autocomplete="on" action="#null" onsubmit="formVdalidation()">
-    <h1>Unreleased Top Food Secrets </h1>
-    <p>
-      Sign up to learn the top culinary secrets the world has never seen before!
-    </p>
-    <div id="formalignment">
-      <ol>
-        <li id="input-email">
+  <head>
+    <title>ITMD 362 - Project 1</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <script async src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="Header">
+        <h1>Unreleased Top Food Secrets</h1>
+        <p>Sign up to learn the top culinary secrets the world has never seen before!</p>
+    </div>
+    <div id="Form">
+      <form method="get" autocomplete="on" action="#null" onsubmit="formCompletion()">
+        <div class="name">
+          <label for="text">Full Name:</label>
+          <input type="text" id="name" name="name"/>
+        </div>
+        <div class="email">
           <label for="email">Email:</label>
           <input type="email" name="email" id="email" pattern="^.+@.+$" />
-        </li>
-        <li id="input-age-verification">
-          <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-          <label for="age-verification">I am over 18 years old</label>
-        </li>
-        <li id="input-submit">
-          <input type="submit" name="submit" id="submit" value="Subscribe" />
-        </li>
-      </ol>
+        </div>
+        <div class="phone">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" placeholder="111-111-1111" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div class="submit">
+          <input type="submit" name="submit" id="submit" value="Sign Up" />
+        </div>
+      </form>
     </div>
-  </form>
-</main>
-</body>
+  </body>
 </html>
