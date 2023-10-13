@@ -15,10 +15,12 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
-padding: 50px;
-margin: 40px;
+padding: 80px;
 color: #fff;
 border-radius: 10px;
+width: 100%;
+align-self: center;
+margin: 20px;
 }
 
 h1 {
