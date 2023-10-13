@@ -1,1 +1,123 @@
+/* Base styles for Desktop Design */
+/* HTML Background Styling */
+body {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: #f26c4f;
+color: #333;
+text-align: center;
+}
+  
+/* Form Header and Word Styling */
+.Header {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-image: url(../Images/spices-black-background-space.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 50px;
+margin: 40px;
+color: #fff;
+border-radius: 10px;
+}
 
+h1 {
+  padding: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 10px;   
+}
+
+/*General Form Container styling */
+#Form {
+background-color: #ffc68e;
+border-radius: 10px;
+padding: 20px;
+margin: 80px;
+box-shadow: 20px 20px 20px 10px rgb(126, 62, 62);
+display: flex;
+justify-content: center; 
+align-items: center; 
+height: 70vh;
+}
+  
+form {
+max-width: 300px;
+margin: 0 auto;
+display: flex;  
+flex-direction: column;
+}
+  
+/* Form label and input field styling */
+label {
+display: block;
+font-weight: bold;
+text-align: left;
+font-family:'Courier New', Courier, monospace;
+color: #ff0000;
+}
+  
+input {
+width: 100%;
+padding: 10px;
+margin: 5px 0;
+border: 3px solid #ff6262;
+border-radius: 5px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: crimson;
+background-color: #ffe0e0;
+}
+
+/* submit button styling */
+.button-container {
+  text-align: center;
+}
+
+input[type="submit"] {
+background-color: #ffa18c;
+color: #fff;
+border: 2px solid #fff;
+padding: 10px 20px;
+border-radius: 5px;
+width: auto;
+align-self: flex-start;
+cursor: pointer;
+transition: background-color 0.5s;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+/* Animation for submit button */
+input[type="submit"]:hover {
+  background-color: #ff2600;
+  animation: buttonPulse 0.5s infinite alternate;
+}
+  
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+  transform: scale(1.2);
+  }
+}
+  
+/* Media queries */
+@media (min-width: 768px) {
+  form {
+    max-width: 400px;
+  }
+}
+  
+@media (min-width: 1024px) {
+  form {
+    max-width: 600px;
+  }     
+
+  .Header h1 {
+    font-size: 36px;
+  }
+}
+  
