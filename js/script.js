@@ -1,3 +1,4 @@
+//Records the values entered by the user
 function formLog(event){
   event.preventDefault();
   const name = document.getElementById('name').value;
@@ -8,6 +9,12 @@ function formLog(event){
   console.log('Phone:', phone);
 }   
 
+//Refreshes the page after the form is submitted and the values are logged
+function setTimeout(){
+  location.reload(1000);
+}
+
+//Rejects submittion if each field is empty or doesn't fit the field requirements and alerts user about submission in external chatbox
 function formCompletion(){
   let name = document.forms["userForm"]["name"].value;
   let email = document.forms["userForm"]["email"].value;
@@ -16,7 +23,7 @@ function formCompletion(){
     alert("Please fill out each field correctly. Each field must be filled out.");
     return false;
   }else{
-    alert("Thank you for completing the form! We will reply back to you within 3-5 business days!");
+    alert("Thank you for completing the form! Your information is recorded and we will reply back to you within 3-5 business days!");
     return true;
   } 
 } 
