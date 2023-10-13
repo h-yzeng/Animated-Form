@@ -109,18 +109,70 @@ input[type="submit"]:hover {
   
 /* Media queries */
 @media (min-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  .Header {
+    padding: 75px;
+    width: 100%;
+    align-self: center;
+    margin: 18px;
+  }  
+
+  h1{
+    font-size:28px;
+    width: 90%;
+    text-rendering: optimizeLegibility;
+    padding: 16px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-top: 8px;   
+    text-rendering: optimizeLegibility;
+  }
+
   form {
     max-width: 400px;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    display: flex;  
+    flex-direction: column;
   }
 }
   
 @media (min-width: 1024px) {
+  body {
+    text-align: center;
+  }
+
+  .Header {
+    padding: 80px;
+    width: 100%;
+    align-self: center;
+    margin: 20px;
+  }  
+
+  h1 {
+    font-size: 36px;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    padding: 20px;
+  }
+
+  p {
+    font-size: 18px;  
+    margin-top: 9px;   
+    text-rendering: optimizeLegibility;
+  }
+
   form {
     max-width: 600px;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    display: flex;  
+    flex-direction: column;
   }     
-
-  .Header h1 {
-    font-size: 36px;
-  }
 }
   
