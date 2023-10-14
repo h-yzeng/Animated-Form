@@ -14,7 +14,7 @@ function setTimeout(){
   location.reload(1000);
 }
 
-//Rejects submittion if each field is empty or doesn't fit the field requirements and alerts user about submission in external chatbox
+//Rejects submission if each field is empty or doesn't fit the field requirements and alerts user about submission in external chatbox
 function formCompletion(){
   let name = document.forms["userForm"]["name"].value;
   let email = document.forms["userForm"]["email"].value;
