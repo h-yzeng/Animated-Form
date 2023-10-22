@@ -1,3 +1,6 @@
+//JavaScript Function Checker
+console.log('JavaScript file loaded');
+
 //Records the values entered by the user
 function formLog(event){
   event.preventDefault();
@@ -27,6 +30,3 @@ function formCompletion(){
     return true;
   } 
 } 
-
-
-
