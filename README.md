@@ -8,4 +8,4 @@ For this project:
 - The entire project is written from scratch in vanilla HTML, CSS, and basic JS without any frameworks or pre-build code
 - I used two media queries for mobile sizing and laptop sizing adjustments
 - Apply design principles including typography, color, and material design
-- Engaged in agile, iterative development, and documented with 25+ commits with informative comments
+- Engaged in agile, iterative development, and documented with 30+ commits with informative comments
