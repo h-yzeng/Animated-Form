@@ -1,23 +1,23 @@
 /* Base styles for Desktop Design */
 /* HTML Background Styling */
 body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   background: linear-gradient(-45deg,#ffe0e0,#ffcccc,#ffa18c,#ff8c72,#f26c4f,#ff6262,#ff2600,#a50000,#690000);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;  
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;  
   color: #333;
   text-align: center;
 }
   
 @keyframes gradient {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 
@@ -154,9 +154,18 @@ input[type="submit"]:hover {
   .Header {
     padding: 40px;
     width: 100%;
-    margin: 10px;
+    margin: 40px;
     max-width: 100%;
     height: auto;
+  }
+
+  #Form {
+    margin: 1%;
+    height: 90vh;
+  }
+
+  form {
+    max-width: 450px;
   }
 }
 
