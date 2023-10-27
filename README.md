@@ -6,6 +6,6 @@ Along with the designing process, I would experiment with patterns of interactio
 
 For this project:
 - The entire project is written from scratch in vanilla HTML, CSS, and basic JS without any frameworks or pre-build code
-- I used two media queries for mobile sizing and laptop sizing adjustments
-- Apply design principles including typography, color, and material design
-- Engaged in agile, iterative development, and documented with 30+ commits with informative comments
+- I utilized three media queries for mobile sizing and laptop sizing adjustments
+- Applied design principles including typography, color, and material design
+- Engaged in agile, iterative development, and documented with 35+ commits with informative comments
