@@ -1,4 +1,4 @@
-# project-1
+# ITMD-362 Project 1: Sign-up Page
 
 Webpage Link: https://hzeng9itmd362.github.io/project-1/
 
