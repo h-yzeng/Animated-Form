@@ -6,8 +6,6 @@
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E alt="JavaScript">
 </p>
 
-Webpage Link: https://hzeng9itmd362.github.io/project-1/
-
 This is my submission repository for Project 1 in the ITMD-362 Human-Computer Interaction and Web Design Course.
 
 The goal of this project is to design a single-page design that features a sign-up process to get new users to join an email list about Food Secrets.
